@@ -1,0 +1,2 @@
+# training
+Shapelets Training Environment
