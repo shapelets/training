@@ -1,0 +1,17 @@
+{
+    "name": "Python Demo Environment",
+    "image": "shapeletsdev/training-slim:v2.2",
+    "workspaceFolder": "/training",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "python.defaultInterpreterPath": "/training/.venv/bin/python"
+            },
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter"                
+            ]
+        }
+    },
+    "postCreateCommand": "/training/.venv/bin/python -m pip install -r /training/requirements.txt"
+}
