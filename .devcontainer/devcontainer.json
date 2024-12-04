@@ -1,6 +1,6 @@
 {
     "name": "Python Demo Environment",
-    "image": "shapeletsdev/training-slim:v2.4",
+    "image": "shapeletsdev/training-slim:v2.5",
     "workspaceFolder": "/training",
     "customizations": {
         "vscode": {
@@ -13,5 +13,5 @@
             ]
         }
     },
-    "postCreateCommand": "/training/.venv/bin/python -m pip install -r /training/requirements.1.txt && /training/.venv/bin/python -m pip install -r /training/requirements.2.txt"
+    "postCreateCommand": "/training/.venv/bin/python -m pip install -r /training/requirements.txt"
 }
